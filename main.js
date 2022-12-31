@@ -1,5 +1,16 @@
 // Brute Force
 // Not  work properly
+// let energy =0;
+// let dis=0;
+// for(let el of matrix){
+//     energy+=el[0]
+//     dis+=el[1]
+// }
+
+// if(energy<dis){
+//     console.log("No starting points");
+//     return;
+// }  if the all the sum of energy is lesser then all the sum of power so simply we have to return ("No starting points")
 let q = [];
 let engSum = 0;
 let distSum = 0;
